@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Models (large)
+!models/.gitkeep
+
+# Data
+data/
+cifake/
+cross_gen/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# IDE / OS
+.DS_Store
+__MACOSX/
+.idea/
+.vscode/
+*.swp
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+
+# Presentation materials (kept local)
+report/
